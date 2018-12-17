@@ -42,11 +42,11 @@ export default {
     };
   },
   created() {
-    if (this.newsLists[this.$route.params.type].length == 0) {
-      this.aaa({
-        type: this.$route.params.type
-      });
-    }
+   // if (this.newsLists[this.$route.params.type].length == 0) {
+   //   this.aaa({
+   //     type: this.$route.params.type
+   //   });
+   // }
   },
   methods: {
     aaa(newsType) {
